@@ -1,0 +1,215 @@
+:root {
+    /* --base-color: #336699; */
+    --base-color: #0057B7;
+    --base-color2: #FFD700;
+}
+header {
+    background-color: var(--base-color);
+    padding: 1em;
+}
+header{
+    display: block;
+}
+header{
+    unicode-bidi: isolate;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, sans-serif;
+    width: 99%;
+}
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+   -webkit-text-size-adjust: 100%;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.row:before , .row:after{
+    display: table;
+    content: " ";
+}
+:after, :before {
+    box-sizing: border-box;
+}
+.row:after {
+    clear: both;
+}
+.col-sm-3{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+div#title {
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px #000000;
+    color: #FFFFFF;
+    background-color: var(--base-color2);
+    border-bottom-right-radius: 1em;
+    padding-left: 0.5em;
+    
+    padding-right: 1em;
+}
+header .hdrlogo {
+    background-color: white;
+    width: 163px;
+    border-radius: 0.3125em;
+    margin: 0.5em 0.2em 0.2em 1.1em;
+    padding: 0.2em 0.2em 0 0.2em;
+}
+p {
+    margin: 0 0 10px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+.col-sm-9{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+header .hdrtxt-xtr {
+    font-size: 0.5em;
+    text-shadow: 1px 1px #000000;
+}
+
+header .hdrtxt a {
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header .hdrtxt {
+    text-align: right;
+    margin-top: 1.2em;
+}
+
+
+.col-sm-3{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+@media (min-width: 768px) {
+    .col-sm-9 {
+        width: 75%;
+    }
+}
+@media (min-width: 768px) {
+    .col-sm-9 {
+        float: left;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+}
+
+.sidebar {
+    width: 180px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 5px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    flex: 1;
+    padding: 10px;
+}
+
+.intro-block {
+     display: flex;
+}
+.sidebar {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 15px;
+ }
+        .contentbar {
+            width: 83%;
+            padding: 0;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        div.contentbar article {
+            width: 100%;
+            font-size: 120%;
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+            padding-right: 2.5em;
+            padding-left:1.5em;
+        }
+    

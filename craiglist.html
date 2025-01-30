@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyderabad Craigslist</title>
+    <link rel="stylesheet" href="craiglist.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const today = new Date();
+            const date = today.getDate();
+            const calendarCells = document.querySelectorAll(".event-calendar td");
+            calendarCells.forEach(cell => {
+                if (parseInt(cell.textContent) === date) {
+                    cell.classList.add("today");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo-section">
+            <h1><span class="logo">☮ SRM UNIVERSITY</span> <span class="small-text">in</span></h1>
+            
+        </div>
+    </header>
+
+    <div class="top-bar">
+        <span class="location">📍 Andhra Pradesh</span>
+        <div class="account-section">
+            <button class="post">✅ post</button>
+            <button class="account">👤 acct</button>
+        </div>
+    </div>
+
+    <div class="container">
+      
+        <aside class="sidebar-left">
+     
+            <div class="search-bar">
+                <input type="text" placeholder="search craigslist">
+            </div>
+
+            <div class="event-calendar">
+                <h3>event calendar</h3>
+                <table>
+                    <tr>
+                        <th>S</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th>
+                    </tr>
+                    <tr>
+                        <td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td>1</td>
+                    </tr>
+                    <tr>
+                        <td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="sidebar-links">
+                <span class="blue-text">help, faq, abuse, legal</span>
+                <span class="blue-text">avoid scams & fraud</span>
+                <span class="blue-text">personal safety tips</span>
+                
+            </div>
+            <div class="sidebar-links bottom-links">
+                <span class="blue-text">about craigslist</span>
+                <span class="blue-text">best-of-craigslist</span>
+                <span class="blue-text">what's new</span>
+                <span class="blue-text">system status</span>
+            </div>
+        </aside>
+
+        <main>
+            <div class="categories-container">
+            <div class="category">
+                <h2>Semester-1</h2>
+                <ul class="ul1">
+                    <li><a href="#">Mathematics-I</a></li>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Chemistry</a></li>
+                    <li><a href="#">Engineering Mechanics</a></li>
+                    <li><a href="#">Basic Electrical Engineering</a></li>
+                </ul>
+            </div>
+           
+            <div class="category">
+                <h2>Semester-2</h2>
+                <ul class="ul1">
+                    <li><a href="#">Mathematics-II</a></li>
+                    <li><a href="#">Programming in C</a></li>
+                    <li><a href="#">Engineering Drawing</a></li>
+                    <li><a href="#">Environmental Studies</a></li>
+                    <li><a href="#">Workshop Practice</a></li>
+                </ul>
+            </div>
+</div>
+<div class="categories-container">
+            <div class="category">
+                <h2>Semester 3</h2>
+                
+                <ul class="ul1">
+
+                    <li><a href="#">Data Structures</a></li>
+                    <li><a href="#">Digital Logic Design</a></li>
+                    <li><a href="#">Signals and Systems</a></li>
+                    <li><a href="#">Discrete Mathematics</a></li>
+                    <li><a href="#">Electronic Circuits</a></li>
+                </ul>
+            </div>
+
+            <div class="category">
+                <h2>Semester 4</h2>
+                <ul class="ul1">
+                    <li><a href="#">Algorithms</a></li>
+                    <li><a href="#">Operating Systems</a></li>
+                    <li><a href="#">Computer Networks</a></li>
+                    <li><a href="#">Database Management Systems</a></li>
+                    <li><a href="#">Microprocessors</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="categories-container">
+            <div class="category">
+                <h2>Semester 5</h2>
+                <ul class="ul1">
+                    <li><a href="#">Software Engineering</a></li>
+                    <li><a href="#">Theory of Computation</a></li>
+                    <li><a href="#">Machine Learning</a></li>
+                    <li><a href="#">Artificial Intelligence</a></li>
+                    <li><a href="#">Cloud Computing</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h2>Semester 6</h2>
+                <ul class="ul1">
+                    <li><a href="#">Web Technologies</a></li>
+                    <li><a href="#">Mobile Application Development</a></li>
+                    <li><a href="#">Data Science</a></li>
+                    <li><a href="#">Cybersecurity</a></li>
+                    <li><a href="#">Internet of Things</a></li>
+                </ul>
+            </div>
+        </div>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="sidebar-right">
+            <div class="language">
+                <label for="language">Language:</label>
+                <select id="language">
+                    <option>English</option>
+                    <option>Hindi</option>
+                </select>
+            </div>
+            <ul class="cities">
+                <li>ahmedabad</li>
+                <li>bangalore</li>
+                <li>chennai</li>
+                <li>delhi</li>
+                <li>hyderabad</li>
+                <li>mumbai</li>
+                <li>pune</li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 SRM UNIVERSITY-AP. All rights reserved.</p>
+    </footer>
+</body>
+</html>
